@@ -31,4 +31,6 @@ The reset step does not change the actual attitude in the estimate, but modifies
 重置步骤不会改变估计中的实际姿态，但会修改参考姿态R<sub>ref</sub>，使得姿态随机变量 δ 的重置后估计为零，即最大程度地远离其奇点。
 
 **Problem 1.** Let the pre-reset reference attitude be R<sub>ref,pre</sub>, and the pre-reset attitude error be δ<sub>pre</sub> with associated mean and covariance:
-![14](https://raw.githubusercontent.com/Yuan-Mingkang/Notes/bef6eca5a5239e20a2f2b964c859303578fa5e53/images/QianJianTec1731054980514.svg)
+<div align="certen">
+  <img src = "https://raw.githubusercontent.com/Yuan-Mingkang/Notes/bef6eca5a5239e20a2f2b964c859303578fa5e53/images/QianJianTec1731054980514.svg" alt="(14)">
+</div>
