@@ -34,3 +34,8 @@ The reset step does not change the actual attitude in the estimate, but modifies
 <div align="center">
   <img src = "https://raw.githubusercontent.com/Yuan-Mingkang/Notes/bef6eca5a5239e20a2f2b964c859303578fa5e53/images/QianJianTec1731054980514.svg" alt="(14)" />(14)
 </div>
+<div align="center">
+  <img src = "https://github.com/Yuan-Mingkang/Notes/blob/main/images/QianJianTec1731056239359.svg" alt="(15)" />(15)
+</div>
+
+
