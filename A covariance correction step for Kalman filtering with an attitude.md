@@ -32,3 +32,5 @@ The reset step does not change the actual attitude in the estimate, but modifies
 
 **Problem 1.** Let the pre-reset reference attitude be R<sub>ref,pre</sub>, and the pre-reset attitude error be δ<sub>pre</sub> with associated mean and covariance:
 $$\µ<sub>pre</sub> := E(δ<sub>pre</sub>)$$
+**The Cauchy-Schwarz Inequality**
+$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
