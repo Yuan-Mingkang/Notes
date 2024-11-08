@@ -27,4 +27,8 @@ The proposed algorithm uses these rewritten equations and is based on the extend
 
 ## Attitude error reset
 
-重置步骤不会改变估计中的实际姿态，但会修改参考姿态R<sub>subscript</sub>，使得姿态随机变量 δ 的重置后估计为零，即最大程度地远离其奇点。
+The reset step does not change the actual attitude in the estimate, but modifies the reference attitude R<sub>ref</sub> so that the post-reset estimate of the attitude random vatiable δ is zero, is maximally far away from its singularities. 
+重置步骤不会改变估计中的实际姿态，但会修改参考姿态R<sub>ref</sub>，使得姿态随机变量 δ 的重置后估计为零，即最大程度地远离其奇点。
+
+**Problem 1.** Let the pre-reset reference attitude be R<sub>ref,pre</sub>, and the pre-reset attitude error be δ<sub>pre</sub> with associated mean and covariance:
+$µ<sub>pre</sub> := E(δ<sub>pre</sub>)$
